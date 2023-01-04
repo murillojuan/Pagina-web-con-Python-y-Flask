@@ -1,0 +1,34 @@
+/* Estilos para pantallas más grandes */
+@media (min-width: 800px) {
+    .container {
+      width: 750px;
+      margin: 0 auto;
+    }
+    .menu {
+      display: flex;
+    }
+    .menu li {
+      flex: 1;
+      text-align: center;
+    }
+  }
+  
+  /* Estilos para pantallas más pequeñas */
+  @media (max-width: 799px) {
+    .container {
+      width: 90%;
+    }
+    .menu {
+      display: block;
+    }
+    .menu li {
+      width: 100%;
+      text-align: left;
+    }
+  }
+body {
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
